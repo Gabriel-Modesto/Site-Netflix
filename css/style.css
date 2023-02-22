@@ -1,0 +1,1055 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+}
+
+
+/* -------------------------------------------- header promoçao ---------------------------------- */
+header{
+    background-color: white;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    height: 66px;
+    font-size: 1.2em;
+}
+
+#promo-botao{
+    font-size: 12px;
+}
+
+#promo-texto{
+    font-weight: 400;
+}
+
+#promo-texto span{
+    font-weight: 800;
+}
+
+#promo-saibaMais{
+    margin-left: 35px;
+    align-items: center;
+    display: flex;
+}
+
+#promo-saibaMais i{
+    font-size: 2.0em;
+}
+
+#promo-saibaMais a{
+    color: rgb(49, 49, 250);
+    font-weight: 600;    
+    display: flex;
+    align-items: center;
+}
+
+#promo-botao{
+    background-color: rgb(223, 49, 49);
+    margin: 15px;
+    border-radius: 15px;
+    padding: 3px 9px;
+    font-weight: 700;
+    color: white;
+}
+
+
+/* -------------------------------------------- seçao 1 ---------------------------------- */
+.section-1{
+    background: url(../Imagens/imagem1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    height: 750px;
+}
+
+.efeito{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.8),transparent 60%,rgba(0,0,0,0.8));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo{
+    margin-top: -60px;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalho{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 167px;
+    height: 45px;
+}
+
+.botoes{
+    width: 220px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botao-entrar{
+    background-color: rgb(233, 49, 49);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.botao-entrar a, .botao-vamosLa a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+}
+
+
+.opcao-idioma select{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 110px;
+    height: 35px;
+    border-radius: 2px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+.opcao-idioma select option{
+    background-color: rgb(116, 116, 116);
+    color: white;
+    text-align: justify;
+}
+
+.texto-secao1{
+    margin-top: 150px;
+    width: 650px;
+    min-height: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.texto-secao1 h1{
+    font-size: 64px;
+    font-weight: 600;
+}
+.texto-secao1 h2{
+    font-size: 26px;
+    font-weight: 400;
+}
+.texto-secao1 h3{
+    font-size: 19.2px;
+    font-weight: 400;
+}
+
+.caixa-email{
+    width: 640px;
+    height: auto;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.email{
+    background-color: black;
+    width: 70%;
+}
+
+.caixa-email input{
+    background-color: rgb(250, 250, 250);
+    width: 98%;
+    height: 60px;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+}
+
+.caixa-email input style{
+    background-color: aqua;
+}
+.caixa-email input::placeholder{
+    font-size: 1.1em;
+    transform: rotate(1)
+}
+
+.botao-vamosLa{
+    background-color: rgb(229,9,20);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    height: 100%;
+    border-radius: 2px;
+    font-size: 1.5em;
+}
+
+.botao-vamosLa a{
+    font-weight: 400;
+}
+.botao-vamosLa i{
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+.section-2, .section-3, .section-4, .section-5{
+    width: 100%;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+}
+
+.sub{
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    color: white;
+}
+
+.area-1{
+    width: 55%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.area-2{
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+
+.area-1 h1{
+    font-size: 50px;
+    width: 80%;
+}
+.area-1 h2{
+    font-size: 26px;
+    font-weight: 400;
+    width: 80%;
+    margin-top: 25px;
+}
+
+.area-2 img{
+    width: 100%;
+}
+
+hr{
+    height: 8px;
+    background-color: rgb(44, 44, 44);
+    border: none;
+}
+
+
+
+
+/* ----------------------------------------------------------------- videos  -------------------------------------------------- */
+.area-2{
+    position: relative;
+}
+
+.img-tv{
+    position: relative;
+    z-index: 2;
+}
+
+.video-tv{
+    position: absolute;
+    right: 60px;
+    top: 100px;
+    width: 415px;
+    height: 248px;
+    z-index: 1;
+}
+
+.img-mac{
+    position: relative;
+    z-index: 2;
+}
+
+.video-mac{
+    position: absolute;
+    right: 105px;
+    top: 100px;
+    width: 351px;
+    height: 247px;
+    z-index: 1;
+}
+
+
+
+
+/* ----------------------------------------------------------------- secao 6 -------------------------------------------------- */
+.section-6{
+    width: 100%;
+    height: auto;
+    min-height: 1000px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    margin-top: 80px;
+}
+.titulo{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.titulo h1{
+    font-size: 40px;
+    color: white;
+}
+
+.sub-6{
+    width: 1200px;
+    height: auto;
+}
+
+.container-pergunta{
+    display: flex;
+    align-items: center;
+    width: 680px;
+    height: 45px;
+    padding: 16px 44px 16px 24px ;
+    background-color: #303030;
+    cursor: pointer;
+}
+
+.titulo-pergunta{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo-pergunta h2{
+    font-weight: 400;
+}
+
+.ico-pergunta{
+    text-align: center;
+    font-size: 35px;
+}
+
+.ico-pergunta i{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.perguntas{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.desc{
+    align-items: center;
+    width: 680px;
+    height: auto;
+    background-color: #303030;
+    padding: 16px 44px 16px 24px ;
+    font-size: 25px;
+    border-top: 1px solid black;
+}
+
+.desc a{
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
+
+.desc p{
+    padding: 15px 0;
+}
+.desc-1,.desc-2,.desc-3, .desc-4, .desc-5, .desc-6, .desc-7{
+    display: none;
+}
+
+.containerr{
+    color: aliceblue;
+}
+
+.bx-menu{
+    font-size: 50px;
+}
+
+
+/* ----------------------------------------------------------------- email final pagina  -------------------------------------------------- */
+.conteudo-fim{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 80px;
+}
+
+.texto-fim{
+    margin-top: 50px;
+    width: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.texto-fim h3{
+    font-weight: 400;
+}
+
+
+
+
+/* ----------------------------------------------------------------- footer -------------------------------------------------- */
+.rodape{
+    width: 100%;
+    height: 400px;
+    height: auto;
+    color: #737373;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+.info-footer{
+    width: 1000px;
+    height: 70%;
+    margin-top: 55px;
+}
+
+.footer-top{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-centro{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.footer-centro ul{
+    width: 100%;
+    height: 100%;
+}
+
+.footer-centro ul li{
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    height: 35px;
+    font-weight: 400;
+    font-size: .8em;
+}
+.footer-centro ul li a{
+    color: #737373;
+}
+
+.footer-centro ul li a:hover{
+    text-decoration: underline;
+}
+
+.pais select{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 154px;
+    height: 53px;
+    border-radius: 2px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid rgb(88, 88, 88);
+    font-size: 15px;
+    color: rgb(116, 116, 116);
+}
+
+.pais select option{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: justify;
+}
+
+.pais2{
+    margin-top: 30px;
+    padding-bottom: 35px;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    font-size: 16px;
+}
+
+
+
+
+/* ------------------------------------------------ media queries */
+
+@media(min-width:1920px){
+    .conteudo{
+        width: 1820px;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media (max-width:1450px){
+    .texto-secao1 h1{
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .logo img{
+        width: 134px;
+        height: 36px;
+    }
+    
+}
+
+
+@media (max-width:1200px){
+    .section-2, .section-3, .section-4, .section-5{
+        width: 100%;
+        height: auto;
+        padding: 50px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .video-tv{
+        position: absolute;
+        right: 42px;
+        top: 12px;
+        width: 80%;
+        height: auto;
+    }
+
+    .video-mac{
+        position: absolute;
+        right: 42px;
+        top: 12px;
+        width: 80%;
+        height: auto;
+        z-index: 1;
+    }
+
+    .container-pergunta{
+        max-width: 680px;
+        width: 80%;
+        height: 45px;
+        padding: 16px 44px 16px 24px ;
+    }
+
+    .sub-6{
+        width: 70%;
+        height: auto;
+    }
+
+    .desc{
+        max-width: 680px;
+        width: 80%;
+        font-size: 20px;
+        height: auto;
+    }
+    .info-footer{
+        max-width: 1000px;
+        width: 90%;
+        height: 70%;
+    }
+}
+
+
+@media(max-width:950px){
+    .logo img{
+        width: 108px;
+        height: 32px;
+    }
+    .texto-secao1 h3{
+        font-size: 18px;
+    }
+
+
+    .caixa-email{
+        width: 500px;
+        height: 200px;
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .email{
+        background-color: transparent;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    .botao-vamosLa{
+        background-color: rgb(233, 49, 49);
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        width: 112px;
+        height: 40px;
+        border-radius: 2px;
+        font-size: 1.0em;
+    }
+
+    .caixa-email-fim{
+        width: 90%;
+        height: 140px;
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section-2, .section-3, .section-4, .section-5{
+        width: 100%;
+        height: 650px;
+        padding: 0px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-6{
+        min-height: 850px;
+    }
+    .sub-modelo-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center        
+    }
+    .sub-modelo-2{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center     
+    }
+
+    .area-1{
+        width: 90%;
+        align-items: center;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .area-2{
+        width: 600px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        justify-content: center;
+    }
+
+    .area-2 img{
+        width: 100%;
+    }
+
+    .area-1 h1{
+        font-size: 40px;
+        width: 100%;
+    }
+    .area-1 h2{
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .video-tv{
+        position: absolute;
+        right: 30px;
+        top: 15px;
+        width: 83%;
+        max-width: 485px;
+        height: auto;
+    }
+
+    .video-mac{
+        position: absolute;
+        right: 140px;
+        top: 15px;
+        width: 58%;
+        height: auto;
+        z-index: 1;
+    }
+
+    .container-pergunta{
+        max-width: 680px;
+        width: 80%;
+        height: 28px;
+        padding: 16px 44px 16px 24px ;
+        font-size: 16px;
+    }
+
+    .sub-6{
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    .desc{
+        width: 80%;
+        font-size: 20px;
+        height: auto;
+    }
+    
+    .desc a{
+        text-decoration: none;
+        color: white;
+        text-decoration: underline;
+    }
+    
+    .desc p{
+        padding: 5px 0;
+    }
+}
+
+
+@media (max-width:725px){
+
+    .texto-secao1{
+        width: 100%;
+    }
+    .texto-secao1 h1{
+        width: 500px;
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    .texto-secao1 h3{
+        width: 460px;
+        padding: 0 40px;
+    }
+}
+
+
+@media (max-width:680px){
+    .section-2, .section-3, .section-4, .section-5{
+        width: 100%;
+        height: auto;
+        padding: 60px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .area-2{
+        width: 88%;
+        display: flex;
+        align-items: center;
+    }
+
+    .area-2 img{
+        width: 100%;
+    }
+
+    .video-mac{
+        position: absolute;
+        right: 30px;
+        top: 15px;
+        width: 83%;
+        max-width: 485px;
+        height: auto;
+    }
+
+    .container-pergunta{
+        max-width: 680px;
+        width: 80%;
+        height: 28px;
+        padding: 16px 44px 16px 24px ;
+        font-size: 11px;
+    }
+    .desc{
+        max-width: 680px;
+        width: 80%;
+        font-size: 20px;
+        height: auto;
+    }
+
+    .titulo{
+        width: 100%;
+    }
+    .titulo h1{
+        width: 100%;
+        font-size: 32px;
+    }
+
+    .footer-grid{
+        grid-template-columns: auto auto auto;
+    }
+}
+
+
+@media (max-width:640px){
+    .texto-secao1 h3{
+        width: 399px ;
+    }
+}
+
+
+@media (max-width:590px){
+
+    .section-1{
+        background: url(../Imagens/imagem1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        width: 100%;
+        height: 500px;
+    }
+    .enviar{
+        background-color: aqua;
+        height: 0px;
+    }
+    .conteudo{
+        margin-top: 5px;
+        padding-bottom: 50px;        
+    }
+    .cabecalho{
+        height: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo img{
+        width: 108px;
+        height: 32px;
+    }
+
+    .texto-secao1{
+        margin-top: 50px;
+
+    }
+    .texto-secao1 h1{
+        width: 80%;
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .texto-secao1 h2{
+        font-size: 18px;
+        width: 100%;
+    }
+    .texto-secao1 h3{
+        font-size: 18px;
+        width: 80%;
+        padding: 0;
+
+    }
+    .caixa-email{
+        width: 100%;
+        height: 200px;
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .caixa-email-fim{
+        width: 90%;
+        height: 140px;
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .email input{
+        height: 48px;
+    }
+    .email{
+        height: 0px;
+    }
+}
+
+
+@media(max-width:550px){
+    .logo img{
+        width: 108px;
+        height: 32px;
+    }
+    .area-1 h1{
+        font-size: 26px;
+    }
+    .area-1 h2{
+        font-size: 18px;
+    }
+    .footer-grid{
+        grid-template-columns: auto auto;
+    }
+}
+
+
+@media (max-width:490px){
+    .texto-secao1 h1{
+        width: 100%;
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .texto-secao1 h2{
+        font-size: 18px;
+        width: 100%;
+    }
+    .texto-secao1 h3{
+        font-size: 18px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .botoes{
+        width: 175px;
+    }
+    .botao-entrar{
+        width: 60px;
+        height: 27px;
+        font-size: 14px;
+    }
+    .opcao-idioma select{
+        width: 100px;
+        height: 28px;
+        font-size: 14px;
+    }
+
+    #promo-botao{
+        font-size: 12px;
+    }
+    #promo-texto{
+        font-size: 14px;
+    }
+    #promo-saibaMais{
+        font-size: 14px;
+    }
+    #promo-saibaMais i{
+        font-size: 2.0em;
+    }
+    
+    #promo-saibaMais a{
+        color: rgb(49, 49, 250);
+        font-weight: 600;    
+        display: flex;
+        align-items: center;
+    }
+    
+    #promo-botao{
+        background-color: rgb(223, 49, 49);
+        margin: 15px;
+        border-radius: 15px;
+        padding: 3px 9px;
+        font-weight: 700;
+        color: white;
+    }
+
+}
+
+@media(max-width:390px){
+    #promo-botao{
+        font-size: 12px;
+        
+    }
+    #promo-texto{
+        font-size: 14px;
+    }
+    #promo-saibaMais{
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    #promo-saibaMais i{
+        font-size: 2.0em;
+    }
+    
+    #promo-saibaMais a{
+        color: rgb(49, 49, 250);
+        font-weight: 600;    
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    #promo-botao{
+        background-color: rgb(223, 49, 49);
+        margin: 15px;
+        border-radius: 15px;
+        padding: 3px 9px;
+        font-weight: 700;
+        color: white;
+    }
+
+}
+
+@media(max-width:390px){
+    #promo-saibaMais{
+        font-size: 12px;
+        margin-left: 0px;
+    }
+
+    #promo-texto{
+        font-size: 14px;
+        width: 150px;
+    }
+
+    .section-1{
+        background-color: antiquewhite;
+        height: auto;
+    }
+}
+
+@media(max-width:320px){
+    .logo img{
+        width: 88px;
+        height: 24px;
+    }
+}
+
+
+
+
+
+
+
